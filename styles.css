@@ -1,4 +1,38 @@
-.numbers{
+.row-one{
     display: flex;
     flex-direction: row;
+}
+
+.row-two{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-three{
+    display: flex;
+    flex-direction: row;
+}
+
+.operations{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+
+input{
+    height: 150px;
+    width:300px;
+}
+
+button{
+    width:77px;
+    height:50px;
+    font-size: 20px;
 }
