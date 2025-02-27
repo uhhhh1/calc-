@@ -8,4 +8,14 @@ let seven = document.querySelector(".seven")
 let eight = document.querySelector(".eight")
 let nine = document.querySelector(".nine")
 let zero = document.querySelector(".zero")
-let input = document.querySelector(".input")
+let addition = document.querySelector(".addition")
+let subtraction = document.querySelector(".subtraction")
+let multiplication = document.querySelector(".multipilication")
+let division = document.querySelector(".division")
+let squareRoot = document.querySelector(".square-root")
+let equals = document.querySelector(".equals")
+let display = document.querySelector("#display")
+
+function appendNumber(number) {
+   document.querySelector("#display").value 
+};
