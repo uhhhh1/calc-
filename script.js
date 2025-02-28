@@ -1,13 +1,3 @@
-let one = document.querySelector(".one")
-let two = document.querySelector(".two")
-let three = document.querySelector(".three")
-let four = document.querySelector(".four")
-let five = document.querySelector(".five")
-let six = document.querySelector(".six")
-let seven = document.querySelector(".seven")
-let eight = document.querySelector(".eight")
-let nine = document.querySelector(".nine")
-let zero = document.querySelector(".zero")
 let addition = document.querySelector(".addition")
 let subtraction = document.querySelector(".subtraction")
 let multiplication = document.querySelector(".multipilication")
@@ -16,6 +6,8 @@ let squareRoot = document.querySelector(".square-root")
 let equals = document.querySelector(".equals")
 let display = document.querySelector("#display")
 
-function appendNumber(number) {
-   document.querySelector("#display").value 
+function appendNumber(newNumber) {
+   let currentValue = document.querySelector("#display").value;
+   document.querySelector("#display").value = currentValue + newNumber;
+   if (newNumber === '0' && display.value === '0') return;
 };
