@@ -9,102 +9,115 @@
     
     <link rel="stylesheet" href="styles.css">
         <div class="calculator">
-            <input type="text" id="display" class="input">
-        <br>
-        <div class="buttons">
-            <div class="numbers">
-                <div class="row-one">
-                    <div class="one">
-                        <button onclick="appendNumber('1')">1</button>
-                    </div>
+            <P>CALC ™</P>
+            <input id="display">
+            <br>
+            <div class="buttons">
+             <div class="numbers">
+                 <div class="row-one">
+
+                        <div class="delete">
+                         <button onclick="clearDisplay()">C/AC</button>
+                        </div>
+
+                    
+                        <div class="one">
+                            <button onclick="appendNumber('1')">1</button>
+                      </div>
     
     
-                    <div class="two">
-                        <button onclick="appendNumber('2')">2</button>
-                    </div>
+                      <div class="two">
+                          <button onclick="appendNumber('2')">2</button>
+                      </div>
     
     
-                    <div class="three">
-                        <button onclick="appendNumber('3')">3</button>
-                    </div>
-    
-    
-                    <div class="four">
-                        <button onclick="appendNumber('4')">4</button>
-                    </div>
-                </div>
+                       <div class="three">
+                          <button onclick="appendNumber('3')">3</button>
+                      </div>
                 
+                    </div>
+
+                    <div class="row-two">
+
+                        <div class="four">
+                            <button onclick="appendNumber('4')">4</button>
+                     </div>
+
+                      <div class="five">
+                         <button onclick="appendNumber('5')">5</button>
+                     </div>
+    
+    
+                     <div class="six">
+                         <button onclick="appendNumber('6')">6</button>
+                     </div>
+    
+    
+                        <div class="seven">
+                          <button onclick="appendNumber('7')">7</button>
+                      </div>
+    
+    
+                </div>
+
+                 <div class="row-three">
+
+                      <div class="eight">
+                           <button onclick="appendNumber('8')">8</button>
+                       </div>
                 
 
-                <div class="row-two">
-                    <div class="five">
-                        <button onclick="appendNumber('5')">5</button>
+
+                      <div class="nine">
+                          <button onclick="appendNumber('9')">9</button>
+                      </div>
+    
+    
+                      <div class="zero">
+                          <button onclick="appendNumber('0')">0</button>
+                     </div>
+
+
+                     <div class="equals">
+                         <button onclick="calculate('=')">=</button>
+                        </div>
                     </div>
-    
-    
-                    <div class="six">
-                        <button onclick="appendNumber('6')">6</button>
-                    </div>
-    
-    
-                    <div class="seven">
-                        <button onclick="appendNumber('7')">7</button>
-                    </div>
-    
-    
-                    <div class="eight">
-                        <button onclick="appendNumber('8')">8</button>
-                    </div>
+            
+
                 </div>
-                
+                <div class="operations">
 
-                <div class="row-three">
-                    <div class="nine">
-                        <button onclick="appendNumber('9')">9</button>
-                    </div>
-    
-    
-                    <div class="zero">
-                        <button onclick="appendNumber('0')">0</button>
+                    <div class="addition">
+                        <button onclick="appendOperation('+')">+</button>
                     </div>
 
-                    <div class="square-root">
-                        <button>√</button>
+
+                 <div class="subtraction">
+                     <button onclick="appendOperation('-')">-</button>
+                  </div>
+
+
+                    <div class="multipilication">
+                        <button onclick="appendOperation('*')">X</button>
                     </div>
 
-                    <div class="equals">
-                        <button>=</button>
+
+                    <div class="division">
+                        <button onclick="appendOperation('/')">/</button>
                     </div>
-                </div>
-               
-
-            </div>
-            <div class="operations">
-
-                <div class="addition">
-                   <button>+</button>
+                    <br>
+                    
                 </div>
 
-
-                <div class="subtraction">
-                    <button>-</button>
+                <div class="decimal">
+                    <button onclick="appendOperation('.')">.</button>
                 </div>
-
-
-                <div class="multipilication">
-                    <button>X</button>
-                </div>
-
-
-                <div class="division">
-                    <button>/</button>
-                </div>
-            </div>
         
-     </div>
+            </div>
         </div>
     
+        <img src="https://uploads.dailydot.com/2024/07/urethra.jpg?auto=compress&fm=pjpg" alt="eureka" id="eureka">
 
-
+<script src="script.js"></script>
 </body>
 </html>
